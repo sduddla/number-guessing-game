@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>숫자 맞추기 게임</title>
+  </head>
+  <body>
+    <div class="title">
+      <div class="title-box">
+        <h1>숫자 맞추기 게임</h1>
+      </div>
+    </div>
+
+    <div class="form">
+      <label for="guessForm">입력해주세요:</label>
+      <input
+        type="number"
+        min="1"
+        max="50"
+        required
+        id="guessForm"
+        class="guessForm"
+      />
+      <input type="submit" value="제출" class="submitForm" />
+
+      <!-- 게임 초기화 -->
+      <div class="reset">
+        <p class="guessGame"></p>
+        <p class="result"></p>
+        <p class="numStatus"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
