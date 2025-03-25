@@ -7,6 +7,9 @@ const numStatus = document.querySelector('.numStatus');
 const guessForm = document.querySelector('.guessForm');
 const submitForm = document.querySelector('.submitForm');
 
+const formInput = document.getElementById('formInput');
+const inputEnter = document.getElementById('inputEnter');
+
 let guessCnt = 1; // 몇 번 제출했는지, count
 let resetBtn; // 초기화 버튼
 guessForm.focus(); // 페이지 로딩이 끝나면 텍스트 커서가 자동으로 <input>에 가도록 한다.
@@ -41,7 +44,14 @@ function checkNum() {
   guessForm.focus();
 }
 
-submitForm.addEventListener('click', checkNum);
+formInput.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (inputEnter.value === '') {
+    alert('입력해 주세요');
+  } else {
+    checkNum();
+  }
+});
 
 function gameOver() {
   // 비활성화를 하지 않으면 게임이 끝난 뒤에도 플레이어가 정답을 추가로 입력해서 게임을 망가뜨리게 된다.
