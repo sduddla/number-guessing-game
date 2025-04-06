@@ -4,7 +4,7 @@
 
 <br>
 
-## 추가한 기능
+## 추가
 - form 요소를 사용하여 Enter 키와 버튼 클릭 모두로 제출이 가능하도록 구현
 - 입력창이 비어 있을 경우, Enter 키 또는 버튼 클릭 시 알림(alert)이 뜨도록 처리
 <br>
@@ -17,6 +17,8 @@
 | 오답일 때 | 정답일 때 |
 | ---- | ---- |
 | <img alt="wrong" src="https://github.com/user-attachments/assets/3c09e3ec-9ebe-4340-b11e-2f04d6e7f05a" width="700" height="200"/> | <img alt="correct" src="https://github.com/user-attachments/assets/3dc345aa-86f2-4c5d-ba99-94868b8036a5" width="700" height="200"/> |
+
+<br>
 
 - 숫자 범위는 1부터 100까지입니다.
 - 추측할 수 있는 기회는 총 10번입니다.
