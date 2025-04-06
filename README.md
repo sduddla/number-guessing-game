@@ -18,6 +18,8 @@
 | ---- | ---- |
 | <img alt="wrong" src="https://github.com/user-attachments/assets/3c09e3ec-9ebe-4340-b11e-2f04d6e7f05a" width="700" height="200"/> | <img alt="correct" src="https://github.com/user-attachments/assets/3dc345aa-86f2-4c5d-ba99-94868b8036a5" width="700" height="200"/> |
 
+<br>
+
 - 숫자 범위는 1부터 100까지입니다.
 - 추측할 수 있는 기회는 총 10번입니다.
 - 입력 없이 제출할 경우, 입력을 요청하는 alert 창이 뜹니다.
